@@ -353,7 +353,6 @@ export const AdminCossignmentCreateComponent = ({ updateHandler }) => {
         <InputField label="Width" name="width" value={isData.width} onChange={handleChangeHandler} />
         <InputField label="Height" name="height" value={isData.height} onChange={handleChangeHandler} />
         <SelectField label="Status" name="status" value={isData.status} onChange={handleChangeHandler} options={["Pending", "Picked Up", "In Transit", "Cancelled", "Delivered", "Returned"]} />
-
         <button type="submit" style={submitButton}>
           {uploading ? "Uploading..." : "Save"}
         </button>
