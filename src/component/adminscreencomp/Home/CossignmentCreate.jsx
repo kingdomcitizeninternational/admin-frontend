@@ -347,7 +347,7 @@ export const AdminCossignmentCreateComponent = ({ updateHandler }) => {
         {/* --- Package Info --- */}
         <h3 style={sectionHead}>Package Information</h3>
         <InputField label="Qty" name="Qty" type="number" value={isData.Qty} onChange={handleChangeHandler} />
-        <SelectField label="Piece Type" name="piece_type" value={isData.piece_type} onChange={handleChangeHandler} options={["Pallet", "Cartons", "Crate", "Box","Others"]} />
+        <SelectField label="Piece Type" name="piece_type" value={isData.piece_type} onChange={handleChangeHandler} options={["Pallet", "Cartons", "Crate", "Metallic Box","Others"]} />
         <InputField label="Description" name="description" value={isData.description} onChange={handleChangeHandler} />
         <InputField label="Length" name="length" value={isData.length} onChange={handleChangeHandler} />
         <InputField label="Width" name="width" value={isData.width} onChange={handleChangeHandler} />
