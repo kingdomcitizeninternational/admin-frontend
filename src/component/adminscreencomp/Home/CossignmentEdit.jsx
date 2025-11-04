@@ -182,6 +182,8 @@ export const AdminCossignmentEditComponent = ({ updateHandler }) => {
                             { label: "Receiver Phone", field: "reciever_phoneNumber", type: "text" },
                             { label: "Receiver Address", field: "reciever_address", type: "text" },
                             { label: "Weight (kg)", field: "weight", type: "number" },
+                            { label: "Longitude", field: "longitude", type: "number" },
+                            { label: "Lattitude", field: "lattitude", type: "number" },
                             { label: "Packages", field: "packages", type: "text" },
                             { label: "Product", field: "product", type: "text" },
                         ].map((item, index) => (

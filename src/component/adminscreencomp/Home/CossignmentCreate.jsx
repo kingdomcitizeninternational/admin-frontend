@@ -331,14 +331,23 @@ export const AdminCossignmentCreateComponent = ({ updateHandler }) => {
         <InputField label="Pickup Time" name="pickup_time" type="time" value={isData.pickup_time} onChange={handleChangeHandler} />
         <SelectField label="Mode" name="mode" value={isData.mode} onChange={handleChangeHandler} options={["Sea transport", "Land Shipping", "Air Freight"]} />
         <InputField label="Quantity" name="quantity" type="number" value={isData.quantity} onChange={handleChangeHandler} />
+
         <InputField label="Total Freight" name="total_freight" type="number" value={isData.total_freight} onChange={handleChangeHandler} />
+
+
+ <InputField label="Lattitude" name="lattitude" type="number" value={isData.lattitude} onChange={handleChangeHandler} />
+
+  <InputField label="longitude" name="longitude" type="number" value={isData.longitude} onChange={handleChangeHandler} />
+    
+
+
         <InputField label="Pickup Date" name="pickup_date" type="date" value={isData.pickup_date} onChange={handleChangeHandler} />
         <InputField label="Expected Delivery Date" name="expected_delivery_date" type="date" value={isData.expected_delivery_date} onChange={handleChangeHandler} />
 
         {/* --- Package Info --- */}
         <h3 style={sectionHead}>Package Information</h3>
         <InputField label="Qty" name="Qty" type="number" value={isData.Qty} onChange={handleChangeHandler} />
-        <SelectField label="Piece Type" name="piece_type" value={isData.piece_type} onChange={handleChangeHandler} options={["Pallet", "Cartons", "Crate", "Others"]} />
+        <SelectField label="Piece Type" name="piece_type" value={isData.piece_type} onChange={handleChangeHandler} options={["Pallet", "Cartons", "Crate", "Box","Others"]} />
         <InputField label="Description" name="description" value={isData.description} onChange={handleChangeHandler} />
         <InputField label="Length" name="length" value={isData.length} onChange={handleChangeHandler} />
         <InputField label="Width" name="width" value={isData.width} onChange={handleChangeHandler} />
