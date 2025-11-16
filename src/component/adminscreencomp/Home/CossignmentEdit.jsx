@@ -185,6 +185,8 @@ export const AdminCossignmentEditComponent = ({ updateHandler }) => {
                             { label: "Longitude", field: "longitude", type: "number" },
                             { label: "Lattitude", field: "lattitude", type: "number" },
                             { label: "Packages", field: "packages", type: "text" },
+ { label: "Status", field: "status", type: "text",placeholder:"In Transit, Delivered,Pending etc." },
+
                             { label: "Product", field: "product", type: "text" },
                         ].map((item, index) => (
                             <div style={inputGroup} key={index}>
