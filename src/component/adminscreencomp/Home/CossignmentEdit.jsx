@@ -183,7 +183,7 @@ export const AdminCossignmentEditComponent = ({ updateHandler }) => {
                             { label: "Receiver Address", field: "reciever_address", type: "text" },
                             { label: "Weight (kg)", field: "weight", type: "number" },
                             { label: "Longitude", field: "longitude", type: "number" },
-                            { label: "Lattitude", field: "lattitude", type: "number" },
+                            { label: "latitude", field: "latitude", type: "number" },
                             { label: "Packages", field: "packages", type: "text" },
  { label: "Status", field: "status", type: "text",placeholder:"In Transit, Delivered,Pending etc." },
 

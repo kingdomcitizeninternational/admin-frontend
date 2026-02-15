@@ -378,7 +378,7 @@ export const AdminCossignmentCreateComponent = ({ updateHandler }) => {
         <InputField label="Total Freight" name="total_freight" type="number" value={isData.total_freight} onChange={handleChangeHandler} />
 
 
-        <InputField label="Lattitude" name="lattitude" type="number" value={isData.lattitude} onChange={handleChangeHandler} />
+        <InputField label="latitude" name="latitude" type="number" value={isData.latitude} onChange={handleChangeHandler} />
 
         <InputField label="longitude" name="longitude" type="number" value={isData.longitude} onChange={handleChangeHandler} />
 

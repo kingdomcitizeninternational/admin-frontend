@@ -93,8 +93,8 @@ export const AdminHistoryCreateComponent = ({ updateHandler }) => {
           <label style={labelStyle}>Latitude</label>
           <input
             type="number"
-            value={isData.lattitude || ''}
-            onChange={(e) => handleChangeHandler(e, 'lattitude')}
+            value={isData.latitude || ''}
+            onChange={(e) => handleChangeHandler(e, 'latitude')}
             placeholder="Enter latitude"
             style={inputStyle}
           />
